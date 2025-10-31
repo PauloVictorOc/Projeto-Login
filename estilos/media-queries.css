@@ -1,0 +1,57 @@
+/*
+Tipical Device Breakpoints
+--------------------------------
+
+- Small Devices (Mobiles, 600px and down)
+- Medium Devices (Tablets, 600px to 768px)
+- Large Devices (Desktops, 768px to 992px)
+- Extra Large Devices (Large Desktops, 992px and up)
+--------------------------------
+
+*/
+/*Configuração para Tablet*/
+@media screen and (min-width: 600px) and (max-width: 992px){
+    body{
+        background: linear-gradient(to top, #494949, #5f2c82);
+        text-align: center;
+    }
+    section#login{
+        width: 90vw;
+        height: 350px;
+    }
+    section#login > div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+        background-position: left bottom;
+        border-radius: 10px 0px 0px 10px;
+    }
+    section#login > div#formulario{
+        float: right;
+        width: 70%;
+        height: 100%;
+        padding: 30px;
+    }
+}
+@media screen and (min-width: 992px){
+    body{
+        background: linear-gradient(to top, #494949, #5f2c82);
+        text-align: center;
+    }
+    section#login{
+        width: 950px;
+    }
+    section#login > div#imagem{
+        float: right;
+        width: 40%;
+        height: 100%;
+        background-position: center;
+        border-radius: 0px 10px 10px 0px;
+    }
+    section#login > div#formulario{
+        float: right;
+        width: 60%;
+        height: 100%;
+        padding: 40px;
+    }
+}
